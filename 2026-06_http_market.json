@@ -1,0 +1,1746 @@
+{
+  "schema_version": "1.1",
+  "month": "2026-06",
+  "period_status": "final",
+  "operation_start_date": "2026-06-02",
+  "schedule_policy": "usually Tuesday-Saturday; missing files are allowed and not imputed",
+  "included_issue_dates": [
+    "2026-06-02",
+    "2026-06-03",
+    "2026-06-04",
+    "2026-06-05",
+    "2026-06-06",
+    "2026-06-09",
+    "2026-06-10",
+    "2026-06-11",
+    "2026-06-12",
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-17",
+    "2026-06-18",
+    "2026-06-19",
+    "2026-06-20",
+    "2026-06-23",
+    "2026-06-24",
+    "2026-06-25",
+    "2026-06-26",
+    "2026-06-27",
+    "2026-06-28",
+    "2026-06-30"
+  ],
+  "market_calendar": [
+    {
+      "issue_date": "2026-06-02",
+      "reference_market_date": "2026-06-01",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-03",
+      "reference_market_date": "2026-06-02",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-04",
+      "reference_market_date": "2026-06-03",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-05",
+      "reference_market_date": "2026-06-04",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-06",
+      "reference_market_date": "2026-06-05",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-09",
+      "reference_market_date": "2026-06-08",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-10",
+      "reference_market_date": "2026-06-09",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-11",
+      "reference_market_date": "2026-06-10",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-12",
+      "reference_market_date": "2026-06-11",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-13",
+      "reference_market_date": "2026-06-12",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-16",
+      "reference_market_date": "2026-06-15",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-17",
+      "reference_market_date": "2026-06-16",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-18",
+      "reference_market_date": "2026-06-17",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-19",
+      "reference_market_date": "2026-06-18",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-20",
+      "reference_market_date": "2026-06-19",
+      "market_status": "partial_holiday",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-23",
+      "reference_market_date": "2026-06-22",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-24",
+      "reference_market_date": "2026-06-23",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-25",
+      "reference_market_date": "2026-06-24",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-26",
+      "reference_market_date": "2026-06-25",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-27",
+      "reference_market_date": "2026-06-26",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-28",
+      "reference_market_date": "2026-06-27",
+      "market_status": "closed_weekend",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-06-30",
+      "reference_market_date": "2026-06-29",
+      "market_status": "open",
+      "reason": null
+    }
+  ],
+  "contracts": [
+    {
+      "issue_date": "2026-06-02",
+      "reference_market_date": "2026-06-01",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 261.2,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-02",
+      "reference_market_date": "2026-06-01",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3450.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-03",
+      "reference_market_date": "2026-06-02",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 259.2,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-03",
+      "reference_market_date": "2026-06-02",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 252.85,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-03",
+      "reference_market_date": "2026-06-02",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 245.25,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-03",
+      "reference_market_date": "2026-06-02",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3462.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-03",
+      "reference_market_date": "2026-06-02",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3335.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-03",
+      "reference_market_date": "2026-06-02",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3257.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-04",
+      "reference_market_date": "2026-06-03",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 253.1,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-04",
+      "reference_market_date": "2026-06-03",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 247.6,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-04",
+      "reference_market_date": "2026-06-03",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 240.45,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-04",
+      "reference_market_date": "2026-06-03",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3371.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-04",
+      "reference_market_date": "2026-06-03",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3278.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-04",
+      "reference_market_date": "2026-06-03",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3206.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-05",
+      "reference_market_date": "2026-06-04",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 247.35,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-05",
+      "reference_market_date": "2026-06-04",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 235.45,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-06",
+      "reference_market_date": "2026-06-05",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 246.7,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-06",
+      "reference_market_date": "2026-06-05",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 242.45,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-06",
+      "reference_market_date": "2026-06-05",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 235.2,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-06",
+      "reference_market_date": "2026-06-05",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3316.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-06",
+      "reference_market_date": "2026-06-05",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3233.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-06",
+      "reference_market_date": "2026-06-05",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3164.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-09",
+      "reference_market_date": "2026-06-08",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 245.9,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-09",
+      "reference_market_date": "2026-06-08",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 241.65,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-09",
+      "reference_market_date": "2026-06-08",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 234.35,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-09",
+      "reference_market_date": "2026-06-08",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3333.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-09",
+      "reference_market_date": "2026-06-08",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3260.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-09",
+      "reference_market_date": "2026-06-08",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3189.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-10",
+      "reference_market_date": "2026-06-09",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 245.5,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-10",
+      "reference_market_date": "2026-06-09",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 241.85,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-10",
+      "reference_market_date": "2026-06-09",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 234.6,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-10",
+      "reference_market_date": "2026-06-09",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3293.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-10",
+      "reference_market_date": "2026-06-09",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3230.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-10",
+      "reference_market_date": "2026-06-09",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3161.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-11",
+      "reference_market_date": "2026-06-10",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 248.4,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-11",
+      "reference_market_date": "2026-06-10",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 244.6,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-11",
+      "reference_market_date": "2026-06-10",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 237.25,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-11",
+      "reference_market_date": "2026-06-10",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3354.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-11",
+      "reference_market_date": "2026-06-10",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3297.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-11",
+      "reference_market_date": "2026-06-10",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3231.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-12",
+      "reference_market_date": "2026-06-11",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 253.95,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-12",
+      "reference_market_date": "2026-06-11",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 250.25,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-12",
+      "reference_market_date": "2026-06-11",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 243.2,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-12",
+      "reference_market_date": "2026-06-11",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3463.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-12",
+      "reference_market_date": "2026-06-11",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3395.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-12",
+      "reference_market_date": "2026-06-11",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3328.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-13",
+      "reference_market_date": "2026-06-12",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 257.25,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-13",
+      "reference_market_date": "2026-06-12",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3597.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-16",
+      "reference_market_date": "2026-06-15",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 262.95,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-16",
+      "reference_market_date": "2026-06-15",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 259.2,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-16",
+      "reference_market_date": "2026-06-15",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 251.75,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-16",
+      "reference_market_date": "2026-06-15",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3607.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-16",
+      "reference_market_date": "2026-06-15",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3529.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-16",
+      "reference_market_date": "2026-06-15",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3466.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-17",
+      "reference_market_date": "2026-06-16",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 277.25,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-17",
+      "reference_market_date": "2026-06-16",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 272.8,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-17",
+      "reference_market_date": "2026-06-16",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 263.6,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-17",
+      "reference_market_date": "2026-06-16",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3669.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-17",
+      "reference_market_date": "2026-06-16",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3598.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-17",
+      "reference_market_date": "2026-06-16",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3545.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-18",
+      "reference_market_date": "2026-06-17",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 277.85,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-18",
+      "reference_market_date": "2026-06-17",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 271.9,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-18",
+      "reference_market_date": "2026-06-17",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 263.15,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-18",
+      "reference_market_date": "2026-06-17",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3680.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-18",
+      "reference_market_date": "2026-06-17",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3622.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-18",
+      "reference_market_date": "2026-06-17",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3574.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-19",
+      "reference_market_date": "2026-06-18",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 275.1,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-19",
+      "reference_market_date": "2026-06-18",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 267.8,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-19",
+      "reference_market_date": "2026-06-18",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 257.9,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-19",
+      "reference_market_date": "2026-06-18",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3685.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-19",
+      "reference_market_date": "2026-06-18",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3629.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-19",
+      "reference_market_date": "2026-06-18",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3587.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-20",
+      "reference_market_date": "2026-06-19",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3640.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-20",
+      "reference_market_date": "2026-06-19",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3592.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-20",
+      "reference_market_date": "2026-06-19",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3555.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-23",
+      "reference_market_date": "2026-06-22",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 267.0,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-24",
+      "reference_market_date": "2026-06-23",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 275.95,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-24",
+      "reference_market_date": "2026-06-23",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 261.95,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-24",
+      "reference_market_date": "2026-06-23",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3580.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-24",
+      "reference_market_date": "2026-06-23",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3556.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-24",
+      "reference_market_date": "2026-06-23",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3510.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-25",
+      "reference_market_date": "2026-06-24",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 294.1,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-25",
+      "reference_market_date": "2026-06-24",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 277.2,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-25",
+      "reference_market_date": "2026-06-24",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 264.45,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-25",
+      "reference_market_date": "2026-06-24",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3707.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-25",
+      "reference_market_date": "2026-06-24",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3605.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-25",
+      "reference_market_date": "2026-06-24",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3554.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-26",
+      "reference_market_date": "2026-06-25",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 288.8,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-26",
+      "reference_market_date": "2026-06-25",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 276.4,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-26",
+      "reference_market_date": "2026-06-25",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 263.4,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-06-26",
+      "reference_market_date": "2026-06-25",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3662.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-26",
+      "reference_market_date": "2026-06-25",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3593.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-27",
+      "reference_market_date": "2026-06-26",
+      "commodity": "arabica",
+      "symbol": "KCN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 286.75,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-27",
+      "reference_market_date": "2026-06-26",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 273.2,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-27",
+      "reference_market_date": "2026-06-26",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "deferred",
+      "last": 260.9,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-27",
+      "reference_market_date": "2026-06-26",
+      "commodity": "robusta",
+      "symbol": "RMN26",
+      "contract_month": "2026-07",
+      "contract_role": "nearby",
+      "last": 3817.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-27",
+      "reference_market_date": "2026-06-26",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "next",
+      "last": 3627.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-27",
+      "reference_market_date": "2026-06-26",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "deferred",
+      "last": 3570.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-30",
+      "reference_market_date": "2026-06-29",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 277.8,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-30",
+      "reference_market_date": "2026-06-29",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "next",
+      "last": 263.4,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-30",
+      "reference_market_date": "2026-06-29",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 3564.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-06-30",
+      "reference_market_date": "2026-06-29",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "next",
+      "last": 3510.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    }
+  ],
+  "daily_market_commentary": [
+    {
+      "price_summary": "브라질 수확 진전과 공급 확대 전망으로 커피 선물이 하락했다. 원문 선물시장 요약에서 직접 확인되는 종가는 뉴욕 아라비카 7월물 261.20센트/파운드와 런던 로부스타 7월물 3,450달러/톤이다. 별도 본문의 비정상 가격은 사용하지 않았다.",
+      "bullish_factors": "낮은 ICE 인증 재고, 엘니뇨 우려와 물류 비용 상승이 하락 폭을 제한했다.",
+      "bearish_factors": "브라질 수확 진전과 글로벌 공급 확대 전망이 가격을 압박했다.",
+      "other_topics": "선물시장 요약의 직접 종가만 사용하고 별도 본문의 비정상 가격은 배제했다.",
+      "quality_flags": [
+        "generated_article_price_conflict_rejected",
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-02",
+      "market": "coffee_futures",
+      "source_file": "시장_20260602.txt",
+      "reference_market_date": "2026-06-01"
+    },
+    {
+      "price_summary": "뉴욕 아라비카는 하락하고 런던 로부스타는 상승했다. 아라비카는 7월물 259.20센트/파운드, 9월물 252.85센트, 12월물 245.25센트였다. 로부스타는 7월물 3,462달러/톤, 9월물 3,335달러, 11월물 3,257달러로 마감했다.",
+      "bullish_factors": "낮은 거래소 재고, 엘니뇨와 브라질 추위 우려가 로부스타와 시장 하방을 지지했다.",
+      "bearish_factors": "브라질 수확 진전과 공급 확대 기대가 아라비카를 압박했다.",
+      "other_topics": "아라비카는 하락하고 로부스타는 상승하는 차별화가 나타났다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-06-03",
+      "market": "coffee_futures",
+      "source_file": "시장_20260603.txt",
+      "reference_market_date": "2026-06-02"
+    },
+    {
+      "price_summary": "브라질 수확 진전과 대규모 공급 전망으로 커피 선물이 급락했다. 뉴욕 아라비카는 7월물 253.10센트/파운드, 9월물 247.60센트, 12월물 240.45센트였다. 런던 로부스타는 7월물 3,371달러/톤, 9월물 3,278달러, 11월물 3,206달러로 마감했다.",
+      "bullish_factors": "낮은 인증 재고와 기상 위험이 하락 폭을 일부 제한했다.",
+      "bearish_factors": "브라질 수확 진행과 대규모 공급 전망이 양 시장을 강하게 압박했다.",
+      "other_topics": "아라비카는 약 1년 반, 로부스타는 약 7주 만의 낮은 수준을 기록했다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-06-04",
+      "market": "coffee_futures",
+      "source_file": "시장_20260604.txt",
+      "reference_market_date": "2026-06-03"
+    },
+    {
+      "price_summary": "브라질 공급 확대 전망으로 커피 선물이 하락했다. 원문에서 직접 확인되는 종가는 뉴욕 아라비카 7월물 247.35센트/파운드와 12월물 235.45센트다. 아라비카 9월물과 로부스타 계약 종가는 직접 제시되지 않아 생성하지 않았다.",
+      "bullish_factors": "낮은 거래소 재고와 생산자의 판매 유보가 하락 폭을 제한했다.",
+      "bearish_factors": "브라질 수확 확대와 USDA 생산 전망이 가격을 압박했다.",
+      "other_topics": "직접 확인되는 아라비카 7월·12월물만 저장했다.",
+      "quality_flags": [
+        "limited_direct_contract_closes"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-05",
+      "market": "coffee_futures",
+      "source_file": "시장_20260605.txt",
+      "reference_market_date": "2026-06-04"
+    },
+    {
+      "price_summary": "브라질 수확 진전과 공급 확대 전망으로 커피 선물이 추가 하락했다. 뉴욕 아라비카는 7월물 246.70센트/파운드, 9월물 242.45센트, 12월물 235.20센트였다. 런던 로부스타는 7월물 3,316달러/톤, 9월물 3,233달러, 11월물 3,164달러로 마감했다.",
+      "bullish_factors": "낮은 거래소 재고와 일부 기상 위험이 하방을 제한했다.",
+      "bearish_factors": "브라질 수확 진전과 공급 확대 전망이 가격을 계속 압박했다.",
+      "other_topics": "아라비카와 로부스타 주요 월물이 동반 하락했다.",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-06",
+      "market": "coffee_futures",
+      "source_file": "시장_20260606.txt",
+      "reference_market_date": "2026-06-05"
+    },
+    {
+      "price_summary": "뉴욕 아라비카는 하락하고 런던 로부스타는 상승했다. 원문 기사 기준 아라비카는 7월물 245.90센트/파운드, 9월물 241.65센트, 12월물 234.35센트였다. 로부스타는 7월물 3,333달러/톤, 9월물 3,260달러, 11월물 3,189달러로 마감했다.",
+      "bullish_factors": "낮은 거래소 재고와 기상·물류 위험이 로부스타 상승과 시장 하방을 지지했다.",
+      "bearish_factors": "브라질 수확 진전과 공급 확대 전망이 아라비카 가격을 압박했다.",
+      "other_topics": "원문 기사 종가를 사용하고 별도 생성 기사의 충돌 가격은 배제했다.",
+      "quality_flags": [
+        "generated_article_price_conflict_rejected",
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-09",
+      "market": "coffee_futures",
+      "source_file": "시장_20260609.txt",
+      "reference_market_date": "2026-06-08"
+    },
+    {
+      "price_summary": "브라질 수확 진전과 공급 확대 전망으로 커피 선물이 대체로 하락했다. 뉴욕 아라비카는 7월물 245.50센트/파운드, 9월물 241.85센트, 12월물 234.60센트였다. 런던 로부스타는 7월물 3,293달러/톤, 9월물 3,230달러, 11월물 3,161달러로 마감했다.",
+      "bullish_factors": "낮은 거래소 재고와 일부 기상 위험이 하락 폭을 제한했다.",
+      "bearish_factors": "브라질 수확 확대와 공급 전망 개선이 커피 선물에 하락 압력을 가했다.",
+      "other_topics": "아라비카 직접 종가는 원문대로 보존하되 전일 연결 불일치를 표시했다.",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-10",
+      "market": "coffee_futures",
+      "source_file": "시장_20260610.txt",
+      "reference_market_date": "2026-06-09"
+    },
+    {
+      "price_summary": "낮은 거래소 재고와 기술적 매수로 커피 선물이 상승했다. 뉴욕 아라비카는 7월물 248.40센트/파운드, 9월물 244.60센트, 12월물 237.25센트였다. 런던 로부스타는 7월물 3,354달러/톤, 9월물 3,297달러, 11월물 3,231달러로 마감했다.",
+      "bullish_factors": "낮은 거래소 재고와 기술적 매수가 아라비카와 로부스타 반등을 이끌었다.",
+      "bearish_factors": "브라질 대규모 생산과 글로벌 공급 잉여 전망은 상승 폭을 제한했다.",
+      "other_topics": "아라비카 직접 종가는 원문대로 보존하되 전일 연결 불일치를 표시했다.",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-11",
+      "market": "coffee_futures",
+      "source_file": "시장_20260611.txt",
+      "reference_market_date": "2026-06-10"
+    },
+    {
+      "price_summary": "낮은 ICE 재고와 숏커버링으로 커피 선물이 강하게 상승했다. 뉴욕 아라비카는 7월물 253.95센트/파운드, 9월물 250.25센트, 12월물 243.20센트였다. 런던 로부스타는 7월물 3,463달러/톤, 9월물 3,395달러, 11월물 3,328달러로 마감했다.",
+      "bullish_factors": "낮은 거래소 재고와 숏커버링이 커피 선물의 강한 상승을 이끌었다.",
+      "bearish_factors": "브라질과 베트남의 공급 확대 전망은 중기 상승을 제한하는 요인이었다.",
+      "other_topics": "아라비카와 로부스타의 주요 세 월물이 모두 상승했다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-06-12",
+      "market": "coffee_futures",
+      "source_file": "시장_20260612.txt",
+      "reference_market_date": "2026-06-11"
+    },
+    {
+      "price_summary": "브라질 강우에 따른 수확 지연 우려와 낮은 재고로 커피 선물이 상승했다. 원문에서 직접 확인되는 종가는 뉴욕 아라비카 7월물 257.25센트/파운드와 런던 로부스타 7월물 3,597달러/톤이다. 다른 월물은 예측 블록에만 있어 생성하지 않았다.",
+      "bullish_factors": "브라질 강우에 따른 수확 지연 우려와 낮은 거래소 재고가 가격을 지지했다.",
+      "bearish_factors": "브라질 기록적 생산 전망은 추가 상승을 제한했다.",
+      "other_topics": "직접 확인된 아라비카·로부스타 7월물만 저장하고 예측 블록의 다른 월물은 배제했다.",
+      "quality_flags": [
+        "limited_direct_contract_closes",
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-13",
+      "market": "coffee_futures",
+      "source_file": "시장_20260613.txt",
+      "reference_market_date": "2026-06-12"
+    },
+    {
+      "price_summary": "브라질 강우와 낮은 재고로 커피 선물이 상승했다. 뉴욕 아라비카는 7월물 262.95센트/파운드, 9월물 259.20센트, 12월물 251.75센트였다. 런던 로부스타는 7월물 3,607달러/톤, 9월물 3,529달러, 11월물 3,466달러로 마감했다.",
+      "bullish_factors": "브라질 강우에 따른 수확·건조 지연, 낮은 ICE 재고와 물류비 상승이 가격을 지지했다.",
+      "bearish_factors": "브라질 기록적 생산과 아라비카 공급 잉여, 베트남 수출 확대 전망은 상승 폭을 제한했다.",
+      "other_topics": "아라비카와 로부스타가 각각 단기 최고 수준으로 상승했다.",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-16",
+      "market": "coffee_futures",
+      "source_file": "시장_20260616.txt",
+      "reference_market_date": "2026-06-15"
+    },
+    {
+      "price_summary": "브라질 수확 지연 우려와 낮은 재고로 커피 선물이 급등했다. 뉴욕 아라비카는 7월물 277.25센트/파운드, 9월물 272.80센트, 12월물 263.60센트였다. 런던 로부스타는 7월물 3,669달러/톤, 9월물 3,598달러, 11월물 3,545달러로 마감했다.",
+      "bullish_factors": "브라질 강우와 수확 지연, 낮은 인증 재고 및 물류 차질 우려가 급등을 이끌었다.",
+      "bearish_factors": "브라질 대풍작과 글로벌 아라비카 공급 잉여, 베트남 생산 확대 전망은 중기 상단을 제한했다.",
+      "other_topics": "아라비카 7월물은 5주 만의 최고 수준을 기록했다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-06-17",
+      "market": "coffee_futures",
+      "source_file": "시장_20260617.txt",
+      "reference_market_date": "2026-06-16"
+    },
+    {
+      "price_summary": "커피 선물은 혼조세를 보였다. 뉴욕 아라비카는 7월물 277.85센트/파운드로 상승했으나 9월물은 271.90센트, 12월물은 263.15센트로 하락했다. 런던 로부스타는 7월물 3,680달러/톤, 9월물 3,622달러, 11월물 3,574달러로 상승 마감했다.",
+      "bullish_factors": "브라질 수확 지연과 낮은 ICE 재고, 로부스타 공급 제약 우려가 가격을 지지했다.",
+      "bearish_factors": "브라질 기상 개선과 대풍작 전망, 베트남 수출 증가가 아라비카 원월물 상승을 제한했다.",
+      "other_topics": "아라비카는 월물별 혼조, 로부스타는 전 월물 상승을 기록했다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-06-18",
+      "market": "coffee_futures",
+      "source_file": "시장_20260618.txt",
+      "reference_market_date": "2026-06-17"
+    },
+    {
+      "price_summary": "차익 실현과 달러 강세로 아라비카는 하락하고 로부스타는 소폭 상승했다. 아라비카는 7월물 275.10센트/파운드, 9월물 267.80센트, 12월물 257.90센트였다. 로부스타는 7월물 3,685달러/톤, 9월물 3,629달러, 11월물 3,587달러로 마감했다.",
+      "bullish_factors": "브라질 강우와 낮은 아라비카 재고, 물류 비용 상승이 가격 하방을 지지했다.",
+      "bearish_factors": "차익 실현, 달러 강세, 브라질의 건조 기상 복귀와 공급 확대 전망이 아라비카를 압박했다.",
+      "other_topics": "아라비카는 급락했지만 로부스타는 소폭 상승했다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-06-19",
+      "market": "coffee_futures",
+      "source_file": "시장_20260619.txt",
+      "reference_market_date": "2026-06-18"
+    },
+    {
+      "price_summary": "미국 준틴스 공휴일로 뉴욕 아라비카 시장은 휴장했고 런던 로부스타만 거래됐다. 로부스타는 7월물 3,640달러/톤, 9월물 3,592달러, 11월물 3,555달러로 하락 마감했다. 재게시된 직전 뉴욕 종가는 신규 계약값으로 저장하지 않았다.",
+      "bullish_factors": "브라질 강우와 낮은 아라비카 재고, 장기 공급망 위험이 시장 하방을 지지했다.",
+      "bearish_factors": "로부스타 재고 증가와 차익 실현, 브라질·베트남 공급 확대 전망이 런던 가격을 압박했다.",
+      "other_topics": "준틴스로 뉴욕 아라비카는 휴장했으며 런던 로부스타만 신규 종가를 형성했다.",
+      "quality_flags": [
+        "partial_holiday_ice_ny_closed_london_robusta_open"
+      ],
+      "market_status": "partial_holiday",
+      "issue_date": "2026-06-20",
+      "market": "coffee_futures",
+      "source_file": "시장_20260620.txt",
+      "reference_market_date": "2026-06-19"
+    },
+    {
+      "price_summary": "커피 선물이 하락했다. 원문에서 계약월이 직접 확인되는 종가는 뉴욕 아라비카 9월물 267.00센트/파운드다. 런던 로부스타는 3,582달러/톤으로 마감했지만 계약월이 명시되지 않아 계약별 종가를 생성하지 않았다.",
+      "bullish_factors": "브라질 강우와 수확 지연, 엘니뇨 위험 및 낮은 ICE 재고가 하락 폭을 제한했다.",
+      "bearish_factors": "브라질 건조 기상 복귀와 기록적 생산 전망, 물류 정상화 및 베트남 공급 확대가 가격을 압박했다.",
+      "other_topics": "로부스타 종가는 계약월 미상으로 시장 해설에만 남기고 계약값으로 생성하지 않았다.",
+      "quality_flags": [
+        "robusta_close_without_contract_month_not_structured"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-23",
+      "market": "coffee_futures",
+      "source_file": "시장_20260623.txt",
+      "reference_market_date": "2026-06-22"
+    },
+    {
+      "price_summary": "아라비카는 급등하고 로부스타는 월물별 혼조세를 보였다. 아라비카 9월물은 275.95센트/파운드, 12월물은 261.95센트였다. 로부스타는 7월물 3,580달러/톤, 9월물 3,556달러, 11월물 3,510달러로 마감했다.",
+      "bullish_factors": "브라질 한랭전선과 강우로 인한 수확 지연, 인증 재고 감소가 아라비카 급등을 이끌었다.",
+      "bearish_factors": "물류 정상화와 브라질·베트남의 공급 확대 전망이 로부스타 근월물과 시장 상단을 압박했다.",
+      "other_topics": "아라비카는 상승하고 로부스타는 근월 하락·원월 상승의 혼조세를 나타냈다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-06-24",
+      "market": "coffee_futures",
+      "source_file": "시장_20260624.txt",
+      "reference_market_date": "2026-06-23"
+    },
+    {
+      "price_summary": "브라질 강우와 재고 감소로 커피 선물이 상승했다. 아라비카는 7월물 294.10센트/파운드, 9월물 277.20센트, 12월물 264.45센트였다. 로부스타는 7월물 3,707달러/톤, 9월물 3,605달러, 11월물 3,554달러로 마감했다.",
+      "bullish_factors": "브라질 강우와 느린 수확, ICE 재고 감소 및 엘니뇨 위험이 커피 선물을 지지했다.",
+      "bearish_factors": "브라질 기록적 생산과 글로벌 아라비카 잉여, 베트남 공급 확대 전망은 상승을 제한했다.",
+      "other_topics": "아라비카와 로부스타 주요 월물이 동반 상승했다.",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-25",
+      "market": "coffee_futures",
+      "source_file": "시장_20260625.txt",
+      "reference_market_date": "2026-06-24"
+    },
+    {
+      "price_summary": "아라비카는 하락하고 로부스타 원월물은 상승했다. 아라비카는 7월물 288.80센트/파운드, 9월물 276.40센트, 12월물 263.40센트였다. 로부스타는 직접 확인된 9월물 3,662달러/톤과 11월물 3,593달러를 저장했으며 7월물은 생성하지 않았다.",
+      "bullish_factors": "브라질 우천과 느린 농가 판매, 낮은 거래소 재고가 로부스타와 시장 하방을 지지했다.",
+      "bearish_factors": "브라질 수확 진전과 대풍작, 글로벌 공급 잉여 전망이 아라비카를 압박했다.",
+      "other_topics": "재인용된 전날 아라비카 9월물 가격은 중복 저장하지 않았고 로부스타 7월물은 직접 종가가 없어 생성하지 않았다.",
+      "quality_flags": [
+        "prior_session_quote_not_duplicated",
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-06-26",
+      "market": "coffee_futures",
+      "source_file": "시장_20260626.txt",
+      "reference_market_date": "2026-06-25"
+    },
+    {
+      "price_summary": "차익 실현과 공급 확대 전망으로 커피 선물이 대체로 하락했다. 아라비카는 7월물 286.75센트/파운드, 9월물 273.20센트, 12월물 260.90센트였다. 로부스타는 7월물 3,817달러/톤, 9월물 3,627달러, 11월물 3,570달러로 마감했다.",
+      "bullish_factors": "브라질 강우와 낮은 ICE 재고, 일부 로부스타 공급 제약이 하락 폭을 제한했다.",
+      "bearish_factors": "브라질 건조 기상 복귀와 수확 진전, 차익 실현 및 글로벌 공급 확대 전망이 가격을 압박했다.",
+      "other_topics": "로부스타 7월물만 상승했고 다른 주요 월물은 대체로 하락했다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-06-27",
+      "market": "coffee_futures",
+      "source_file": "시장_20260627.txt",
+      "reference_market_date": "2026-06-26"
+    },
+    {
+      "price_summary": "참조일인 6월 27일은 토요일로 커피 선물시장의 신규 거래가 없었다. 파일의 선물 블록은 5월 28일 예측 문구와 과거 재고·가격이 혼재한 오래된 자료로 판단해 계약 종가를 생성하지 않았다.",
+      "bullish_factors": "신규 거래가 없어 당일 상승 요인을 산정하지 않았다.",
+      "bearish_factors": "신규 거래가 없어 당일 하락 요인을 산정하지 않았다.",
+      "other_topics": "통상 일정 밖의 일요일 파일이며 토요일 참조일의 신규 세션은 없다. 과거 자료가 섞인 선물 블록은 배제했다.",
+      "quality_flags": [
+        "closed_weekend",
+        "stale_market_block_rejected"
+      ],
+      "market_status": "closed_weekend",
+      "issue_date": "2026-06-28",
+      "market": "coffee_futures",
+      "source_file": "시장_20260628.txt",
+      "reference_market_date": "2026-06-27"
+    },
+    {
+      "price_summary": "브라질 폭우와 낮은 재고로 아라비카는 상승하고 로부스타는 재고 증가로 하락했다. 아라비카는 9월물 277.80센트/파운드, 12월물 263.40센트였다. 로부스타는 9월물 3,564달러/톤, 11월물 3,510달러로 마감했다.",
+      "bullish_factors": "브라질 폭우에 따른 수확 지연과 품질 우려, 낮은 아라비카 인증 재고가 뉴욕 가격을 지지했다.",
+      "bearish_factors": "런던 로부스타 재고 증가와 베트남 수출 확대, 브라질 대풍작 전망이 로부스타를 압박했다.",
+      "other_topics": "주 거래 월물이 9월물로 넘어가 9월물을 nearby, 11·12월물을 next로 분류했다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-06-30",
+      "market": "coffee_futures",
+      "source_file": "시장_20260630.txt",
+      "reference_market_date": "2026-06-29"
+    }
+  ],
+  "inventory_records": [],
+  "data_notes": [
+    "No missing dates or inventory values were imputed.",
+    "Source-internal date typos were not used; the filename issue date is authoritative.",
+    "Unverified arabica price forecast blocks embedded in the June source summaries were excluded.",
+    "Contract roles use July as nearby, September as next, and December arabica or November robusta as deferred through 2026-06-27; from 2026-06-30, September is nearby and December arabica or November robusta is next.",
+    "For 2026-06-02, only the directly stated market-summary arabica July and robusta July closes were stored; conflicting implausible prices in a separate generated article were rejected.",
+    "The 2026-06-02 directly stated closes were retained with cross-day inconsistency flags because their stated changes did not reconcile with the prior May issue and the next issue's changes.",
+    "Only the directly stated arabica July and December closes were stored for 2026-06-05; the missing arabica September and robusta contract closes were not reconstructed.",
+    "The directly stated 2026-06-06 arabica December close was retained with a cross-day inconsistency flag because its stated change did not reconcile with the prior direct close.",
+    "For 2026-06-09, publisher article closes were used and conflicting prices in a separate generated article were rejected; directly stated arabica closes from 2026-06-09 through 2026-06-11 were retained with cross-day inconsistency flags.",
+    "For 2026-06-13, only directly stated July arabica and robusta closes were stored; missing maturities were not reconstructed and both closes carry cross-day inconsistency flags.",
+    "The 2026-06-16 directly stated arabica July and robusta July closes were retained with cross-day inconsistency flags because their reported changes did not reconcile exactly with the prior direct closes; other maturities lacked comparable prior direct closes.",
+    "2026-06-20 refers to the 2026-06-19 Juneteenth session: ICE New York arabica was closed while London robusta remained open, so only three new robusta closes were stored and repeated prior-session arabica values were not duplicated.",
+    "The 2026-06-23 robusta close lacked a stated contract month and was retained only in commentary, not assigned to a contract symbol.",
+    "The directly stated 2026-06-25 arabica December close and 2026-06-26 arabica July and December closes were retained with cross-day inconsistency flags where reported changes did not reconcile with prior direct closes.",
+    "For 2026-06-26, a repeated prior-session arabica September quote was not duplicated and no robusta July close was reconstructed.",
+    "The 2026-06-28 issue references a Saturday weekend closure; its stale market block mixed a May 28 forecast with older inventory and price context, so no contract close was created.",
+    "From 2026-06-30, the reported lead contracts shifted to September; September is marked nearby and December arabica or November robusta is marked next."
+  ]
+}
