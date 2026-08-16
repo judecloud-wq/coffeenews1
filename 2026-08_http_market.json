@@ -1,0 +1,780 @@
+{
+  "schema_version": "1.1",
+  "month": "2026-08",
+  "period_status": "in_progress",
+  "operation_start_date": "2026-08-01",
+  "schedule_policy": "usually Tuesday-Saturday; missing files are allowed and not imputed",
+  "included_issue_dates": [
+    "2026-08-01",
+    "2026-08-04",
+    "2026-08-05",
+    "2026-08-06",
+    "2026-08-07",
+    "2026-08-08",
+    "2026-08-11",
+    "2026-08-12",
+    "2026-08-13",
+    "2026-08-14"
+  ],
+  "market_calendar": [
+    {
+      "issue_date": "2026-08-01",
+      "reference_market_date": "2026-07-31",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-08-04",
+      "reference_market_date": "2026-08-03",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-08-05",
+      "reference_market_date": "2026-08-04",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-08-06",
+      "reference_market_date": "2026-08-05",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-08-07",
+      "reference_market_date": "2026-08-06",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-08-08",
+      "reference_market_date": "2026-08-07",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-08-11",
+      "reference_market_date": "2026-08-10",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-08-12",
+      "reference_market_date": "2026-08-11",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-08-13",
+      "reference_market_date": "2026-08-12",
+      "market_status": "open",
+      "reason": null
+    },
+    {
+      "issue_date": "2026-08-14",
+      "reference_market_date": "2026-08-13",
+      "market_status": "open",
+      "reason": null
+    }
+  ],
+  "contracts": [
+    {
+      "issue_date": "2026-08-01",
+      "reference_market_date": "2026-07-31",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 332.1,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-01",
+      "reference_market_date": "2026-07-31",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "next",
+      "last": 314.65,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-08-01",
+      "reference_market_date": "2026-07-31",
+      "commodity": "arabica",
+      "symbol": "KCH27",
+      "contract_month": "2027-03",
+      "contract_role": "deferred",
+      "last": 305.3,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-08-01",
+      "reference_market_date": "2026-07-31",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 3782.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-01",
+      "reference_market_date": "2026-07-31",
+      "commodity": "robusta",
+      "symbol": "RMX26",
+      "contract_month": "2026-11",
+      "contract_role": "next",
+      "last": 3775.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-08-01",
+      "reference_market_date": "2026-07-31",
+      "commodity": "robusta",
+      "symbol": "RMF27",
+      "contract_month": "2027-01",
+      "contract_role": "deferred",
+      "last": 3744.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-08-04",
+      "reference_market_date": "2026-08-03",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 321.15,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-08-04",
+      "reference_market_date": "2026-08-03",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "next",
+      "last": 304.7,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-04",
+      "reference_market_date": "2026-08-03",
+      "commodity": "arabica",
+      "symbol": "KCH27",
+      "contract_month": "2027-03",
+      "contract_role": "deferred",
+      "last": 296.6,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-04",
+      "reference_market_date": "2026-08-03",
+      "commodity": "robusta",
+      "symbol": "RMU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 3786.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-04",
+      "reference_market_date": "2026-08-03",
+      "commodity": "robusta",
+      "symbol": "RMF27",
+      "contract_month": "2027-01",
+      "contract_role": "deferred",
+      "last": 3756.0,
+      "unit": "USD_per_metric_ton",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-05",
+      "reference_market_date": "2026-08-04",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 324.1,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    },
+    {
+      "issue_date": "2026-08-05",
+      "reference_market_date": "2026-08-04",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "next",
+      "last": 308.8,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-05",
+      "reference_market_date": "2026-08-04",
+      "commodity": "arabica",
+      "symbol": "KCH27",
+      "contract_month": "2027-03",
+      "contract_role": "deferred",
+      "last": 299.7,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-06",
+      "reference_market_date": "2026-08-05",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 326.9,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-06",
+      "reference_market_date": "2026-08-05",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "next",
+      "last": 311.45,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-07",
+      "reference_market_date": "2026-08-06",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 321.65,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-07",
+      "reference_market_date": "2026-08-06",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "next",
+      "last": 306.1,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-07",
+      "reference_market_date": "2026-08-06",
+      "commodity": "arabica",
+      "symbol": "KCH27",
+      "contract_month": "2027-03",
+      "contract_role": "deferred",
+      "last": 297.3,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-08",
+      "reference_market_date": "2026-08-07",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 335.55,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-08",
+      "reference_market_date": "2026-08-07",
+      "commodity": "arabica",
+      "symbol": "KCH27",
+      "contract_month": "2027-03",
+      "contract_role": "deferred",
+      "last": 305.85,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-11",
+      "reference_market_date": "2026-08-10",
+      "commodity": "arabica",
+      "symbol": "KCU26",
+      "contract_month": "2026-09",
+      "contract_role": "nearby",
+      "last": 332.3,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-11",
+      "reference_market_date": "2026-08-10",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "next",
+      "last": 313.9,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-11",
+      "reference_market_date": "2026-08-10",
+      "commodity": "arabica",
+      "symbol": "KCH27",
+      "contract_month": "2027-03",
+      "contract_role": "deferred",
+      "last": 304.55,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-12",
+      "reference_market_date": "2026-08-11",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "next",
+      "last": 315.7,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-12",
+      "reference_market_date": "2026-08-11",
+      "commodity": "arabica",
+      "symbol": "KCH27",
+      "contract_month": "2027-03",
+      "contract_role": "deferred",
+      "last": 306.7,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-13",
+      "reference_market_date": "2026-08-12",
+      "commodity": "arabica",
+      "symbol": "KCZ26",
+      "contract_month": "2026-12",
+      "contract_role": "next",
+      "last": 319.95,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-13",
+      "reference_market_date": "2026-08-12",
+      "commodity": "arabica",
+      "symbol": "KCH27",
+      "contract_month": "2027-03",
+      "contract_role": "deferred",
+      "last": 310.05,
+      "unit": "US_cents_per_lb",
+      "value_source": "daily_market_summary",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ]
+    }
+  ],
+  "daily_market_commentary": [
+    {
+      "price_summary": "낮은 ICE 재고와 브라질 수확 지연, 글로벌 공급잉여 전망 축소로 아라비카가 급등했고 로부스타는 보합권에서 소폭 상승했다. 아라비카는 9월물 332.10센트/파운드, 12월물 314.65센트, 2027년 3월물 305.30센트였고 로부스타는 9월물 3,782달러/톤, 11월물 3,775달러, 2027년 1월물 3,744달러로 마감했다.",
+      "bullish_factors": "ICE 아라비카 인증 재고 감소, 브라질 수확 지연과 폭우, 글로벌 공급잉여 전망 축소가 가격을 지지했다.",
+      "bearish_factors": "베트남 수출·생산 증가, 높은 로부스타 재고와 USDA의 세계 생산 기록 전망이 상승 폭을 제한했다.",
+      "other_topics": "주 종가와 충돌하는 아라비카 대체 인용값은 배제했으며, 일부 원월물의 기재 등락폭은 전일 직접 종가와 맞지 않아 플래그를 부여했다.",
+      "quality_flags": [
+        "alternate_source_quote_conflict_rejected",
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-08-01",
+      "market": "coffee_futures",
+      "source_file": "시장_20260801.txt",
+      "reference_market_date": "2026-07-31"
+    },
+    {
+      "price_summary": "브라질 건조 기상과 수확 가속, 달러 대비 헤알 약세로 아라비카는 급락했고 로부스타는 소폭 상승했다. 아라비카는 9월물 321.15센트/파운드, 12월물 304.70센트, 2027년 3월물 296.60센트였고 로부스타는 9월물 3,786달러/톤, 2027년 1월물 3,756달러로 마감했다.",
+      "bullish_factors": "낮은 인증 재고와 일부 지역의 수확 지연, 로부스타 실물 공급의 상대적 타이트함이 하방을 지지했다.",
+      "bearish_factors": "브라질 건조 기상과 수확 가속, 헤알 약세 및 펀드 차익실현이 아라비카를 압박했다.",
+      "other_topics": "아라비카 9월물의 직접 종가는 유지했으나 별도 기사에 기재된 등락폭과 직전 직접 종가가 맞지 않아 플래그를 부여했다.",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-08-04",
+      "market": "coffee_futures",
+      "source_file": "시장_20260804.txt",
+      "reference_market_date": "2026-08-03"
+    },
+    {
+      "price_summary": "기술적 매수와 브라질 생두 품질 우려로 아라비카가 반등했다. 직접 종가는 9월물 324.10센트/파운드, 12월물 308.80센트, 2027년 3월물 299.70센트다. 로부스타는 상승폭만 확인되어 계약별 종가를 생성하지 않았다.",
+      "bullish_factors": "기술적 매수와 브라질 생두 품질 불확실성, 낮은 인증 재고가 아라비카를 지지했다.",
+      "bearish_factors": "브라질 수확 진전과 공급 증가, 원유 급락이 상승 폭을 제한했다.",
+      "other_topics": "아라비카 9월물의 직접 종가는 유지했으나 기사별 등락폭이 직전 직접 종가와 맞지 않았다. 로부스타 종가는 역산하지 않았다.",
+      "quality_flags": [
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-08-05",
+      "market": "coffee_futures",
+      "source_file": "시장_20260805.txt",
+      "reference_market_date": "2026-08-04"
+    },
+    {
+      "price_summary": "숏커버링과 브라질·베트남 기상 우려로 커피 선물이 상승했다. 직접 확인되는 아라비카 종가는 9월물 326.90센트/파운드와 12월물 311.45센트다. 로부스타는 상승폭만 확인되어 계약별 종가를 생성하지 않았다.",
+      "bullish_factors": "숏커버링, 브라질 생두 품질 우려와 낮은 인증 재고, 베트남 기상 불확실성이 가격을 지지했다.",
+      "bearish_factors": "브라질의 건조 예보와 수확·건조·운송 가속 가능성, 베트남 수출 증가가 상승을 제한했다.",
+      "other_topics": "로부스타는 상승 방향과 폭만 확인되어 계약별 종가를 생성하지 않았다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-08-06",
+      "market": "coffee_futures",
+      "source_file": "시장_20260806.txt",
+      "reference_market_date": "2026-08-05"
+    },
+    {
+      "price_summary": "브라질 건조 기상에 따른 수확 가속과 차익실현으로 아라비카가 하락했다. 직접 종가는 9월물 321.65센트/파운드, 12월물 306.10센트, 2027년 3월물 297.30센트다. 로부스타는 하락폭만 확인되어 계약별 종가를 생성하지 않았다.",
+      "bullish_factors": "낮은 글로벌 재고, 견조한 수요와 일부 브라질 산지의 강우 재개 가능성이 하락 폭을 제한했다.",
+      "bearish_factors": "브라질 건조 기상과 수확 가속, 차익실현과 공급 확대 기대가 아라비카를 압박했다.",
+      "other_topics": "로부스타는 하락폭만 확인되어 계약별 종가를 생성하지 않았다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-08-07",
+      "market": "coffee_futures",
+      "source_file": "시장_20260807.txt",
+      "reference_market_date": "2026-08-06"
+    },
+    {
+      "price_summary": "낮은 ICE 재고와 브라질 수확 지연·품질 우려, 달러 약세로 아라비카가 급등했다. 직접 종가는 9월물 335.55센트/파운드와 2027년 3월물 305.85센트다. 아라비카 12월물과 로부스타는 해당 세션의 직접 종가가 없어 생성하지 않았다.",
+      "bullish_factors": "ICE 아라비카 재고의 2.5년 최저치, 브라질 수확 지연·품질 우려와 달러 약세가 급등을 이끌었다.",
+      "bearish_factors": "브라질 대규모 생산 전망과 베트남 수출 확대는 중기 공급 부담으로 남았다.",
+      "other_topics": "직접 종가가 없는 아라비카 12월물과 로부스타 계약은 생성하지 않았다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-08-08",
+      "market": "coffee_futures",
+      "source_file": "시장_20260808.txt",
+      "reference_market_date": "2026-08-07"
+    },
+    {
+      "price_summary": "옵션 만기를 앞둔 변동성과 차익실현으로 아라비카는 소폭 하락하고 로부스타는 상승했다. 직접 확인되는 아라비카 종가는 9월물 332.30센트/파운드, 12월물 313.90센트, 2027년 3월물 304.55센트다. 로부스타는 상승폭만 있어 종가를 생성하지 않았다.",
+      "bullish_factors": "낮은 아라비카 재고와 브라질 생두 품질 우려, 견조한 실물 수요가 하방을 지지했다.",
+      "bearish_factors": "옵션 만기 전 포지션 조정과 차익실현, 브라질 수확 진전이 아라비카를 압박했다.",
+      "other_topics": "주말 뒤 직접 종가와 등락폭이 직전 금요일 종가에 연결됐다. 로부스타는 상승폭만 있어 종가를 생성하지 않았다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-08-11",
+      "market": "coffee_futures",
+      "source_file": "시장_20260811.txt",
+      "reference_market_date": "2026-08-10"
+    },
+    {
+      "price_summary": "낮은 ICE 재고와 브라질 공급·품질 우려로 아라비카가 상승했다. 직접 확인되는 종가는 12월물 315.70센트/파운드와 2027년 3월물 306.70센트다. 9월물과 로부스타는 등락폭만 있어 계약별 종가를 생성하지 않았다.",
+      "bullish_factors": "ICE 아라비카 재고 감소와 브라질의 가용 고품질 생두 부족 우려가 가격을 지지했다.",
+      "bearish_factors": "장중 급등 뒤 상승 폭 축소, 브라질 수확 진전과 글로벌 생산 확대 전망이 상단을 제한했다.",
+      "other_topics": "아라비카 9월물과 로부스타는 등락폭만 확인되어 종가를 역산하지 않았다.",
+      "quality_flags": [],
+      "market_status": "open",
+      "issue_date": "2026-08-12",
+      "market": "coffee_futures",
+      "source_file": "시장_20260812.txt",
+      "reference_market_date": "2026-08-11"
+    },
+    {
+      "price_summary": "콜롬비아 지진 이후 수출 차질 우려와 낮은 ICE 재고로 아라비카가 상승했다. 최신 기사에서 직접 확인되는 종가는 12월물 319.95센트/파운드와 2027년 3월물 310.05센트다. 앞부분 가격표의 직전 세션 값은 반복 자료로 판단해 배제했고, 9월물과 로부스타는 등락폭만 있어 종가를 생성하지 않았다.",
+      "bullish_factors": "콜롬비아 지진에 따른 수출 차질 우려, ICE 아라비카 재고 감소와 브라질 고품질 생두 공급 우려가 가격을 지지했다.",
+      "bearish_factors": "장중 급등 뒤 차익실현과 브라질 수확 진전, 글로벌 생산 확대 전망이 상승 폭을 제한했다.",
+      "other_topics": "앞부분의 직전 세션 가격표는 배제하고 최신 기사 직접 종가를 채택했다. 2027년 3월물의 기재 등락 범위는 직전 직접 종가와 맞지 않아 플래그를 부여했다.",
+      "quality_flags": [
+        "stale_prior_session_table_rejected",
+        "cross_day_direction_value_inconsistency_in_source_set"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-08-13",
+      "market": "coffee_futures",
+      "source_file": "시장_20260813.txt",
+      "reference_market_date": "2026-08-12"
+    },
+    {
+      "price_summary": "콜롬비아 커피 수출의 부분 재개와 브라질 건조 기상 전망으로 커피 선물이 하락했다. 원문에는 아라비카 9월물 7.00센트 하락과 로부스타 9월물 103달러 하락만 제시되어 계약별 종가를 생성하지 않았다. 앞부분 가격표는 직전 세션 값이므로 신규 종가로 사용하지 않았다.",
+      "bullish_factors": "ICE 아라비카 재고의 2.75년 최저치와 브라질 수확 지연, 엘니뇨 위험이 하방을 지지했다.",
+      "bearish_factors": "콜롬비아 수출의 부분 재개, 브라질 건조 기상과 베트남 수출 확대가 가격을 압박했다.",
+      "other_topics": "앞부분 표는 직전 세션 값이어서 배제했다. 당일은 등락폭만 확인되어 계약 종가를 생성하지 않았다.",
+      "quality_flags": [
+        "stale_prior_session_table_rejected",
+        "no_direct_contract_closes"
+      ],
+      "market_status": "open",
+      "issue_date": "2026-08-14",
+      "market": "coffee_futures",
+      "source_file": "시장_20260814.txt",
+      "reference_market_date": "2026-08-13"
+    }
+  ],
+  "inventory_records": [
+    {
+      "issue_date": "2026-08-01",
+      "reference_market_date": "2026-07-31",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 264179,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-01",
+      "reference_market_date": "2026-07-31",
+      "market": "ICE_Futures_Europe",
+      "commodity": "robusta",
+      "inventory_type": "exchange_inventory",
+      "value": 4148,
+      "unit": "lots",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-04",
+      "reference_market_date": "2026-08-03",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 260720,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-04",
+      "reference_market_date": "2026-08-03",
+      "market": "ICE_Futures_Europe",
+      "commodity": "robusta",
+      "inventory_type": "exchange_inventory",
+      "value": 4213,
+      "unit": "lots",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-05",
+      "reference_market_date": "2026-08-04",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 253343,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-05",
+      "reference_market_date": "2026-08-04",
+      "market": "ICE_Futures_Europe",
+      "commodity": "robusta",
+      "inventory_type": "exchange_inventory",
+      "value": 4207,
+      "unit": "lots",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-06",
+      "reference_market_date": "2026-08-05",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 251417,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-06",
+      "reference_market_date": "2026-08-05",
+      "market": "ICE_Futures_Europe",
+      "commodity": "robusta",
+      "inventory_type": "exchange_inventory",
+      "value": 4206,
+      "unit": "lots",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-07",
+      "reference_market_date": "2026-08-06",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 248897,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-08",
+      "reference_market_date": "2026-08-07",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 244172,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-08",
+      "reference_market_date": "2026-08-07",
+      "market": "ICE_Futures_Europe",
+      "commodity": "robusta",
+      "inventory_type": "exchange_inventory",
+      "value": 4261,
+      "unit": "lots",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-11",
+      "reference_market_date": "2026-08-10",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 242673,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-11",
+      "reference_market_date": "2026-08-10",
+      "market": "ICE_Futures_Europe",
+      "commodity": "robusta",
+      "inventory_type": "exchange_inventory",
+      "value": 4285,
+      "unit": "lots",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-12",
+      "reference_market_date": "2026-08-11",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 241838,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-12",
+      "reference_market_date": "2026-08-11",
+      "market": "ICE_Futures_Europe",
+      "commodity": "robusta",
+      "inventory_type": "exchange_inventory",
+      "value": 4352,
+      "unit": "lots",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-13",
+      "reference_market_date": "2026-08-12",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 240285,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-13",
+      "reference_market_date": "2026-08-12",
+      "market": "ICE_Futures_Europe",
+      "commodity": "robusta",
+      "inventory_type": "exchange_inventory",
+      "value": 4364,
+      "unit": "lots",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-14",
+      "reference_market_date": "2026-08-13",
+      "market": "ICE_Futures_US",
+      "commodity": "arabica",
+      "inventory_type": "certified_warehouse_stock",
+      "value": 236430,
+      "unit": "bags",
+      "quality_flags": []
+    },
+    {
+      "issue_date": "2026-08-14",
+      "reference_market_date": "2026-08-13",
+      "market": "ICE_Futures_Europe",
+      "commodity": "robusta",
+      "inventory_type": "exchange_inventory",
+      "value": 4514,
+      "unit": "lots",
+      "quality_flags": []
+    }
+  ],
+  "data_notes": [
+    "No missing dates or inventory values were imputed.",
+    "Source-internal date typos were not used; the filename issue date is authoritative.",
+    "Unverified arabica price forecast blocks embedded in the August source summaries were excluded.",
+    "Contract roles use September arabica and robusta as nearby, December arabica or November robusta as next, and later directly reported maturities as deferred.",
+    "Explicit input selection was used so earlier August test files remaining in the workspace were not mixed into this cumulative batch.",
+    "For 2026-08-01, the main directly stated arabica September close of 332.10 US cents/lb was used and a conflicting alternate quote was rejected; directly stated farther-month closes were retained with cross-day inconsistency flags where reported changes did not reconcile with 2026-07-31.",
+    "The 2026-08-04 and 2026-08-05 directly stated arabica September closes were retained with cross-day inconsistency flags because article-level changes did not reconcile with the prior directly stored close.",
+    "Robusta contract closes were not reconstructed from change-only statements on 2026-08-05, 2026-08-06, or 2026-08-07.",
+    "ICE arabica certified stocks were stored for each included issue date; robusta inventories were stored only when the source tied the value directly to that reference session.",
+    "Re-uploaded 2026-08-06 and 2026-08-07 files were byte-identical to the previously processed copies and were included only once per issue date.",
+    "For 2026-08-08, only directly stated arabica September and March 2027 closes were stored; the missing December arabica and robusta closes were not reconstructed.",
+    "For 2026-08-11, directly stated September, December, and March 2027 arabica closes were stored; the robusta close was not reconstructed from its change alone.",
+    "For 2026-08-12, only directly stated December and March 2027 arabica closes were stored; September arabica and robusta closes were not reconstructed from change-only statements.",
+    "ICE arabica and robusta inventory records were added for 2026-08-08, 2026-08-11, and 2026-08-12 where values were tied directly to the reference session.",
+    "The re-uploaded 2026-08-14 file was byte-identical to the earlier test copy and was included only once.",
+    "For 2026-08-13, a stale prior-session price table was rejected and the latest publisher article's directly stated December and March 2027 closes were used; the March close carries a cross-day inconsistency flag.",
+    "For 2026-08-14, the stale prior-session price table was rejected and no contract close was reconstructed from change-only statements.",
+    "ICE arabica and robusta inventory records were added for 2026-08-13 and 2026-08-14 from values tied directly to each reference session."
+  ]
+}
